@@ -1,0 +1,9 @@
+Khởi tạo prisma: npx prisma init --> tạo prisma/schema.prisma
+
+TH1: Chưa có database
+  + npx prisma migrate dev --name init
+
+TH2: Đã có database
+  + npx prisma db pull
+  + npx prisma generate
+
